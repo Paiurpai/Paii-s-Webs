@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: #f0f0f0;
+}
+.card{
+   max-width: 360px;
+   min-height: 500px;
+   margin: 40px auto;
+   border-radius: 30px;
+   padding: 10px;
+    overflow: hidden;
+    box-shadow: inset 1px 1px 2px 0px #ededed99, inset -2px -2px 8px 0px #c3c3c342,
+    -6px -6px 12px 2px #fff, 6px 6px 15px 2px #b6b6b6bd;
+
+}
+
+.pf-bar{
+    display: flex;
+    padding-bottom: 5px;
+}
+.pf-bar > *{
+    display: inline-block;
+}
+.menu{
+   margin: 20px;
+    
+}
+.pf-title{
+    flex:1;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.fav{
+    margin: 20px;
+}
+.pf-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+
+    
+}.imgposition{
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.imgposition::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 4;
+    left: 70px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 0px #c4c4c4, -1px -1px 0px 0px #b3b3b363,
+      inset -3px -1px 5px 0px #fff, inset 0px 0px 15px 0px #b6b6b6bd;
+}
+
+.text-container{
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.job-position{
+    color: #999999;
+}
+.contacts{
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+}
