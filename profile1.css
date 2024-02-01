@@ -56,7 +56,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    top: 4;
+    top: 4px;
     left: 70px;
     position: absolute;
     box-shadow: 1px 1px 10px 0px #c4c4c4, -1px -1px 0px 0px #b3b3b363,
