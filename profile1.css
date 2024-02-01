@@ -56,8 +56,8 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    top: 4px;
-    left: 70px;
+    top: 0;
+    left: 0;
     position: absolute;
     box-shadow: 1px 1px 10px 0px #c4c4c4, -1px -1px 0px 0px #b3b3b363,
       inset -3px -1px 5px 0px #fff, inset 0px 0px 15px 0px #b6b6b6bd;
